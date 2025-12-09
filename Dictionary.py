@@ -114,7 +114,15 @@ profile = {
 
 # clear() --- means remove the all dictionary
 
-print(profile.clear())
+# print(profile.clear())
+
+
+for k in profile.keys():
+    print(k)
+for k in profile.values():
+    print(k)
+for k in profile.items():
+    print(k)
 
 
 
